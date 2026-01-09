@@ -24,7 +24,7 @@
 
 看到这些端口，我第一时间注意到的是运行着web server的port80和port8080，我们可以使用浏览器直接去看看这两个端口到底跑着什么：
 我们先看看：http://10.48.191.123:80
-![](images/Pasted image 20260109093941.png)
+![image](images/Pasted image 20260109093941.png)
 这个网页展示了一张本月最佳员工的照片，我们可以把照片下载下来，使用==`exiftool`==看看照片的元数据里面是否有信息：
 ==`└─➤ exiftool BillHarper.png`==
 `ExifTool Version Number         : 13.36`
